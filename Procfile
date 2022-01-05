@@ -1,1 +1,1 @@
-web: gunicorn processWebook:app --log-file - 
+web: gunicorn app:app
